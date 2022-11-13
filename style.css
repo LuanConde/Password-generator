@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+}
+body {
+	background: linear-gradient(to right, #2c3e50, #20565c);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	margin-bottom: 10px;
+	color: #ffff;
+}
+.container-input {
+	max-width: 480px;
+	margin: 14px 0;
+}
+.container-input span {
+	color: #ffff;
+	font-size: 18px;
+}
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	border-radius: 5px;
+	background: #ffff;
+	height: 18px;
+	outline: none;
+	margin-top: 8px;
+}
+.button-cta {
+	height: 40px;
+	background-color: #ffff;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 40px;
+	font-size: 15px;
+}
+.container-password {
+	max-width: 480px;
+	margin: 14px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+.title {
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.password {
+	height: 60px;
+	background-color: #006666;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	color: #e9e9e9;
+	border: 1px solid #1a3133;
+	border-radius: 6px;
+	transition: transform 0.5s;
+}
+.hide {
+	display: none;
+}
+
+.password:hover {
+	transform: scale(1.05);
+}
+.tooltip {
+	color: #e9e9e9;
+	position: relative;
+	top: 20px;
+	padding: 6px 8px;
+	text-align: center;
+	border-radius: 6px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	background-color: #006666;
+}
+.container-password:hover .tooltip {
+	visibility: visible;
+	bottom: 45px;
+	opacity: 1;
+}
