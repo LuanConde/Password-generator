@@ -13,7 +13,7 @@
 
 <blockquote>
       <p> Um pequeno preview do projeto :</p>
-</blackquote>
+</blockquote>
 
  ![preview](./assets/img.gif)
  
